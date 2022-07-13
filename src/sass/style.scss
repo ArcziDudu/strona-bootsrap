@@ -1,0 +1,60 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import './large';
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    //navigation
+    nav{
+        font-size: 2rem;
+        text-transform: uppercase;
+        .container{
+            .navbar-brand{
+                font-size: 2.4rem;
+                font-weight: bold;
+                text-transform: none;
+            }
+            .navbar-toggler{
+                font-size: 3rem;
+            }
+
+        }
+    }
+    //header
+    header{
+        font-size: 2rem;
+        .carousel-item{
+            position: relative;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            z-index: 0;
+        }
+        .carousel-img-one{
+            background-image: url(/dist/img/main-carousel-1.jpg);
+        }
+        .carousel-img-two{
+            background-image: url(/dist/img/main-carousel-2.jpg);
+        }
+        .carousel-img-three{
+            background-image: url(/dist/img/main-carousel-3.jpg);
+        }
+    }
+    .hero-shadow{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        z-index: -1;
+    }
+}
