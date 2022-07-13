@@ -57,4 +57,36 @@ body{
         background-color: rgba(0,0,0,.6);
         z-index: -1;
     }
+    main{
+        .home-boxes{
+            padding: 5em 0;
+            .home-box{
+                i{
+                    font-size: 4rem;
+                }
+                h3{
+                    font-size: 2.6rem;
+                }
+            }
+        }
+        .home-passion{
+            position: relative;
+            height: 350px;
+
+            background-image: url('/dist/img/sunset-685927_1280.jpg');
+            background-position: center;
+            background-size: cover;
+            z-index: 0;
+        }
+        .home-brand{
+            h3{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+    }
+    //footer
+    footer{
+        font-size: 1.6rem;
+    }
 }
