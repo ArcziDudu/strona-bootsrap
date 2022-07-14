@@ -21,7 +21,7 @@ html{
 }
 .top-hero{
     position: relative;
-    height: 200px;
+    height: 300px;
     background-size: cover;
     z-index: 0;
 }
@@ -203,5 +203,34 @@ body{
         &:hover{
             background-position: right;
         }
+    }
+    //projects
+    .aboutus-hero-projects{
+        background-image: url('/dist/img/project-hero.jpg');
+        background-position: 0 55%;
+    }
+    .projects{
+        .bottom{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                height: 20px;
+                padding: 20px;
+               
+            }
+            p{
+                text-align: right;
+                font-size: 1.6rem;
+            }
+        }
+        
     }
 }
